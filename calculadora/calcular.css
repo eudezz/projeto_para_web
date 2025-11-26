@@ -18,7 +18,7 @@ body{
 }
 
 header{
-    background-color: #a31b1b;
+    background-color: green;
     width: 400px;
 
 }
@@ -30,8 +30,8 @@ main {
      
     
 }
- #resp {
-    font-size: 26px;
+ .resposta {
+    
     text-align: center;
     
     background-color: #a31b1b;
