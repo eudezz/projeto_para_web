@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px
+
+
+}
+body{
+    background-color: white;
+
+
+}
+
+main{
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 30px 0px 30px 30px;
+    background-color: blue;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+
+ 
+ 
+
+}
+section p{
+ margin: auto;
+    
+
+
+}
+#fotperfil img {
+    border-radius: 30px;
+    height: 290px;
+
+    
+}
+footer > #redes{
+    
+
+
+}
