@@ -8,38 +8,40 @@
 
 }
 body{
-    background-color: gold;
-    margin-top: 90px;
-    margin-left: 90px;
-    height: 400px;
-    width: 500px;
+    background-color: white;
+    margin: auto;
    
+    height: 400px;
+    width: 400px;
+    margin-top: 90px;
 
 }
 
 header{
     background-color: green;
     width: 400px;
-
+    margin: auto;
+    
 }
 
 
 main {
      background-color: green;
      width: 400px;
+     margin: auto;
+    
+
      
-    
 }
- .resposta {
-    
-    text-align: center;
-    
+ .resposta { 
+    text-align: center;    
     background-color: #a31b1b;
-
 }
 
-div > p {
-    
-
-
+#buton{
+    position: relative;
+    left: 290px;
+    bottom: 40px;
+    font-size: 20px;
 }
+

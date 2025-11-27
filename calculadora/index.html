@@ -7,19 +7,21 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <header> <h1>Calculadora IMC </h1></header>
+    <header> <h1>Calculadora IMC </h1>
+    </header>
     <main>
         <div>
-            <p> <h4>Qual o seu peso : </h4>
+            <p class=" inputs"> <h4>Qual o seu peso : </h4>
             <input type="number" id="peso"> 
             <h4>Qual a sua altura : </h4>
             <input type="number" id="altura"> <br><br>
-            <input type="button" value="calcular" onclick="calculu()">
+            <!--Botão, função calcular-->
+            <input id="buton" type="button" value="calcular" onclick="calculu()">
             </p>
 
         </div>
         <div class="resposta"  id="resp" >Preencha acima para ter a resposta</div>
-        <div class="resposta"   id="resp2"></div>
+        <div class="resposta" id="resp2"  ></div>
 
 
 

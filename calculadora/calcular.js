@@ -16,8 +16,8 @@ function calculu() {
 
      if(imc < 18.5){
          resp.innerHTML= "Você esta abaixo do peso"     
-        resposta[0].style.background = '#fff'
-        resposta[1].style.background = '#fff'
+        
+        
 
      }else if (imc==18.5 || imc == 24.9) {
       resp.innerHTML="Seu peso esta normal"
