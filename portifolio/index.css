@@ -3,47 +3,55 @@
 
 *{
     margin: 0px;
-    padding: 0px
+    
 
 
 }
 body{
     background-color: white;
-
+    
+  
+    
 
 }
 
 main{
-    margin: 30px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    padding: 30px 0px 30px 30px;
-    background-color: blue;
-}
-
-section{
-    display: flex;
-    align-items: center;
-    gap: 20px;    
-
- 
- 
-
-}
-section p{
- margin: auto;
+    margin: 30px auto 0 auto;
+    width: 500px;
     
-
-
+    display: flex;
+    gap: 30px;
+    background-color: rgba(0, 0, 255, 0.432);
+ 
 }
 #fotperfil img {
     border-radius: 30px;
     height: 290px;
-
+    
+    
     
 }
-footer > #redes{
+
+section{
+   
+      
+}
+
+footer{
+     background-color: rgba(0, 0, 255, 0.432);
+    text-align: center;
+    width: 500px;
+     margin: 0 auto;
+     padding-bottom: 20px;
+     text-align: center;
+}
+footer img {
+    padding-left: 20px;
     
 
-
 }
+
+
+
+
+ 
