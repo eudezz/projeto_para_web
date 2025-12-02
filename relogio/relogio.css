@@ -22,8 +22,9 @@ body{
     border: 1px solid black ;
     background-image: linear-gradient(to bottom,rgb(56, 54, 54), rgb(255, 81, 0) );
     background-attachment: fixed;
-    width: 250px;
+    width: 200px;
+    
      transform: translate(-50%, -50% );
-     border-radius: 50px;
+     border-radius: 100%;
 }
 
