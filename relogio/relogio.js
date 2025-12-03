@@ -8,7 +8,8 @@ function digital(){
     hora = hora < 10 ? '0' + hora : hora;
     minuto = minuto < 10 ? '0' + minuto : minuto;
     segundo = segundo < 10 ? '0' + segundo : segundo;
-    rel.innerHTML= `${hora}: ${minuto} : ${segundo}`
+    rel.innerHTML= `${hora
+}: ${minuto} : ${segundo}`
     relogio.style.fontSize = '2em'
     relogio.style.textAlign='center'
     
