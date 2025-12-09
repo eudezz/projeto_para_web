@@ -1,37 +1,8 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-}
-main{
-    position: relative;
-    
-}
-section{
-        
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        margin: auto;
-        border: 3px black solid;
 
-}
-
-#impu{
-    height: 150px;
-    width: 240px;
-    background-color: cadetblue;
-}
-
-#teclado{
-     height: 55px;
-
-}
-.botões{
-    
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-image: linear-gradient(to bottom,blue);
+td{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    border-collapse: collapse;
 }

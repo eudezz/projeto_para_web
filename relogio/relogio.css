@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(to bottom,brown, rgb(155, 37, 56));
-
+    background-image: url('imagens/fall-8386067.jpg');
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
