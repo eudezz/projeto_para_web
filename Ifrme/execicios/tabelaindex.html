@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hieraquia de tabelas</title>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oi&family=Rubik+Moonrocks&display=swap');
+    
+:root{
+   --font:'Rubik Moonrocks' ; 
+
+}
+h1{
+    font-family: var(--font) ;
+     font-style: italic;
+    
+}
+    
+    table{
+    border-collapse: collapse;
+     width: 400px;
+    height: 400px;
+    }
+
+    td{
+        
+        font-style: italic;
+        text-align: center;
+        border: 1px solid blueviolet;
+        padding: 40px;    
+    }
+    td :hover{
+               
+
+    }
+    tr :hover{
+        text-transform:lowercase;
+        font-size: 30px;
+        background-color: yellow;
+        color: rgb(255, 255, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+     .blue:hover {
+        background-color: blue;
+        
+        font-size: 30px;
+     }
+     th{
+        border: 1px solid blueviolet;
+        height: 50px;
+        
+     }
+     th :hover{ 
+       
+     }
+
+     body{
+        
+        margin: auto 100px;
+        background-image: url('fot/heron-9942763_1280.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+     }
+</style>
+
+</head>
+<body>
+    <h1>Minha primeira tabala</h1>
+   
+    <table>
+            
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td  class="blue">C1</td>
+           
+        </tr>
+        <tr class="blue">
+            <td>A2</td>
+             <td>B2</td>
+              <td>C2</td>
+        </tr>
+    
+    <tr>
+            <td class="blue">A3</td>
+             <td> B3 </td>
+              <td>C3</td>
+              
+        </tr>
+
+        <tr>
+            <td>A4</td>
+             <td>B4</td>
+              <td>C4</td>
+        </tr>
+        
+        
+        
+
+    </table>
+
+</body>
+</html>
