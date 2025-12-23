@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+    max-width: 100vh;
+}
+main{
+   padding-left: 70px;
+    width: 700px;
+   
+}
