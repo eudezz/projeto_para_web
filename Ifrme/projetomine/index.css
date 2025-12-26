@@ -10,5 +10,13 @@ body{
 main{
    padding-left: 70px;
     width: 700px;
-   
+   margin: auto;
+}
+#Tela{
+    position: relative;
+    top: 80px;
+    left: 22px ;
+    height:472px;
+    width: 264px ;
+
 }
