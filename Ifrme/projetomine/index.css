@@ -10,6 +10,7 @@ body{
 main{
    padding-left: 70px;
     width: 700px;
+   
    margin: auto;
 }
 #Tela{
@@ -19,4 +20,21 @@ main{
     height:472px;
     width: 264px ;
 
+}
+
+#Redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 2px 4px 5px rgb(48, 40, 40);
+    box-sizing:border-box ;
+    
+}
+#Redes-sociais img:hover{
+    border: 1px solid white;    
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+     transition: transform 0.3s, border 0.4s; 
+    
 }
