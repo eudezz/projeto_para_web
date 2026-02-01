@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <h1 class="primeiro">Teste de formulário</h1>
+       
+        <form action="cadatros.php" method="get" autocomplete="on">
+            <p>
+                <label for="iUsu">Uruario <input   type="text" name="usu" id="iUso" required minlength="10" placeholder="nome do usuario" autocomplete="username"></label>
+            </p>
+            <p>
+                <label for="iSen">Senha <input  type="password" name="Sen" id="iSen" required minlength="8" placeholder="minimo 8 letras" autocomplete="current-password"></label>
+            </p>
+            <p><input type="submit" value="ENVIAR">
+           <input type="reset" value="Linpar" ></p>
+        </form>
+    </main>
+    
+</body>
+</html>
