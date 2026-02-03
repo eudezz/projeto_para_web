@@ -19,14 +19,20 @@
            box-shadow: 3px 2px rgba(0, 0, 0, 0.623);
             
         }
+
+        h1{
+            text-align: center;
+            background-image: linear-gradient(to left, blue, gray);
+        }
         .primeiro{
             background-color:gray ;
             padding: 10px;
              
         }
         form{
-            background-color: cadetblue;
+           
             padding: 40px;
+            background-image: linear-gradient(to bottom, cadetblue, gray);
         }
         p{
             margin-bottom: 10px;

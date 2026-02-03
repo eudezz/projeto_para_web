@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formilarios para Email</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1 class="primeiro">Formularios de Email</h1>
+       
+            <form action="cadatros.php" method="get">
+                 <fieldset>
+            <!-- <legend></legend> -->
+                <p>
+                    <label for="iEmail">
+                        Seu Email :
+                        <input type="email" name="Email" id="iEmail" required autocomplete="email">
+                    </label>
+                </p>
+                <p>
+                    <label for="iTel">Telefone :
+                        <input type="tel" name="Tel" id="iTel" autocomplete="tel" required>
+                    </label>
+                </p>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+        
+    </main>
+</body>
+</html>
