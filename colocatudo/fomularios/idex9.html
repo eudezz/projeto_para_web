@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <main>
+
+        <form action="">
+            <p>Numero: <input type="text" name="" id="n1">
+                <label for="iNun"></label>
+                <input type="range" value="5" min="0" max="10" name=""  id="iNun" oninput="n.innerHTML=Number(iNun.value)" >
+                <output id="n">5</output>
+            </p>
+            <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        </form>
+       <br> <br> <br>
+        <form action="">
+            
+            <p><label for="iNunb">Em que ano você nasceu:</label>
+            <input type="number" name="" id="iNunb" oninput="idadeatual()"> <br>
+            <label for="nu">Sua Idade:</label>
+            <output id="nu">0</output>
+            </p>
+              <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        </form>
+    </main>
+    <script>
+        function idadeatual(){
+            let adual=new Date().getFullYear()
+            nu.innerHTML=Number(adual)- Number(iNunb.value)
+        }
+    </script>
+</body>
+</html>
