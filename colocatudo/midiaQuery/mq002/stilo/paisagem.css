@@ -1,0 +1,10 @@
+@charset "UFT-8";
+/* aparelho deitado */
+body{
+    background-image: url("../imagens/cev-landscape.jpg");
+
+}
+h1{
+    background-color: darkgoldenrod;
+    
+}
