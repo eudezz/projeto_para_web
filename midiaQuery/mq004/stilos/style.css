@@ -39,7 +39,7 @@ img{
 }
 
 #phone{display: block;}
-#tablet{display: none;}
+#tablet{display:none;}
 #pc{display: none;}
 #tv{display: none;}
 #print{display: none;}
