@@ -6,4 +6,4 @@ link calculador: https://eudezz.github.io/projeto_para_web/calculadora/
 
 link Relógio: https://eudezz.github.io/projeto_para_web/relogio/
 
-link media: https://eudezz.github.io/projeto_para_web/midiaQuery/mq002/
+link media: https://eudezz.github.io/projeto_para_web/midiaQuery/mq002/f
