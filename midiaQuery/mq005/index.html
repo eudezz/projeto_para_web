@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilo/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clicar()">
+menu
+</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="">opição 1</a></li>
+                <li><a href="">opição 2</a></li>
+                <li><a href="">opição 3</a></li>
+                <li><a href="">opição 4</a></li>
+                <li><a href="">opição 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando medias Quereis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laboriosam dolor praesentium sapiente hic repellendus at veritatis maiores rerum, vitae ratione placeat molestias modi sequi a nemo reiciendis adipisci. Atque. </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam ab et deleniti maiores fugit numquam placeat temporibus praesentium? Quaerat saepe voluptate sapiente fugiat praesentium in modi consequatur ex neque.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut molestias non nam fugiat a sunt! Corporis excepturi laborum nihil hic vitae iste enim! Numquam, dignissimos! Sit molestias dolore quod in.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae numquam veniam pariatur vero, tenetur perferendis esse harum dolorum maxime odio facere dolore ipsam consequuntur nobis quis quisquam, tempore consectetur tempora!
+                </p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam maxime corrupti ab praesentium autem eius asperiores harum doloremque? Magni doloribus eius nostrum, veniam tenetur necessitatibus eligendi labore ex beatae corrupti.</p>
+                <p>
+
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eius iusto provident odit totam! Optio quis, debitis tenetur repellat similique ex architecto beatae aliquid! Labore veritatis atque distinctio iusto ut!
+                </p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolores hic earum inventore quas optio vitae modi minus nobis ducimus reiciendis nostrum, possimus adipisci odit consequatur dolorum ratione cum a.</p>
+           
+        </article>
+    </main>
+    <script>
+        function clicar() {
+            var menu=document.getElementById("menu")
+            if ( menu.style.display =='none' ) {
+                 menu.style.display = 'block'
+            } else  {
+                 menu.style.display = 'none'
+            } 
+            
+        }
+    </script>
+</body>
+</html>
