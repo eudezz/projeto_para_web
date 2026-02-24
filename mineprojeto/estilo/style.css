@@ -26,7 +26,8 @@ main{
     height:500px;
     width: 250px;
     border-radius: 20px;
-    
+    transition: width 0.5s, height 0.4s;
+    transition-timing-function: ease;
     background-color: rgba(255, 255, 255, 0.63);
     position: absolute;
     left: 50%;
@@ -41,10 +42,20 @@ main{
     height: 200px;
     background-size: cover;
     background-position: center bottom;
+    
 }
-
-#login > #formulario{
+ #formulario{
     padding: 10px;
     display: block;
+    
+
+}
+ h1{
+    text-align: center;
+    margin-bottom: 10px ;
+    
+}
+p{
+    margin-bottom: 10px;
 
 }
