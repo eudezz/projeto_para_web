@@ -18,28 +18,37 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vinda(o). faça o login para acessar sua conta e poder fazer as confugurações do seu ambiente</p>
-                <form action="" method="post">
-
+                <form action="" method="post" autocomplete="on">
+                    <!-- Email -->
                     <div class="campo">
                         
-                        <label for="email"> 
+                        
                             <span class="material-symbols-outlined">
-deployed_code_account
-</span>
-                        <input type="email" name="" id="email" placeholder="Seu E-mail">
-                    </label>
+                    deployed_code_account
+                            </span>
+                        <input type="email" name="" id="email" placeholder="Seu E-mail" autocomplete="email"  maxlength="30" required>
+                     <label for="email">Usuario</label>
                 </div>
 
                     <br>
+                    <!-- Senha -->
                     <div class="campo">
-                        <label for="sen"><span class="material-symbols-outlined">
+                      <span class="material-symbols-outlined">
                           key
                         </span>
-                            <input type="password" name="" id="sen"> <br>
-                            <input type="submit" value="Entra" placeholder="sua senha">
-                        </label>
+                            <input type="password" name="" placeholder="*******" autocomplete="current-password" id="sen" required minlength="8"  
+                            maxlength="30"> 
+                          <label for="sen">Senha</label>
                     </div>
+                    <br>
+                    <!-- Botões -->
+                     <input type="submit" value="ENTAR">
 
+                     <a href="esqueceu.html" class="botao">Esqueci a senha
+                         <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                     </a>
                 </form>
 
             </div>
