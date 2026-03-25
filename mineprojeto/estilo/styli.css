@@ -2,12 +2,17 @@
 
 /* Tablet */
 @media screen and (min-width: 668px) and (max-width: 992px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
     body{
         background-image: linear-gradient(to top,#593936,#395941);
     }
   #login{
       width: 90%;    
-    
+      
   }
   #login #imagem{
     float: left;
@@ -23,6 +28,24 @@
  label{
     display: block;
   }
+
+    .campo > span{
+    
+    font-size: 2em;
+    color: white;
+   
+    margin-left: 30px;
+ 
+    
+  }
+  .campo .text{
+   
+    height:100%;
+    width: 72%;
+     border: none;
+    
+  }
+
  
 }
 
@@ -59,5 +82,12 @@ p{
 
  label{
     display:inline;
+  }
+
+  .campo .text{
+    height:100%;
+    width: 77%;
+     border: none;
+    
   }
 } 
