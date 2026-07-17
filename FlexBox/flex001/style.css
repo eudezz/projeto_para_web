@@ -1,0 +1,20 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cotainer{
+    margin-top: 10px;
+    display: flex;
+    background-color: brown;
+   flex-direction: row;
+   
+}
+.item{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    flex: auto;
+    background-color: blue;
+    
+}
