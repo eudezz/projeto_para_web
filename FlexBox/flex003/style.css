@@ -3,16 +3,17 @@
     margin: 0px;
     padding: 0px;
 }
+
 .cotainer{
     width:auto;
     height: 500px;
-    margin-top: 10px;
+    margin: 20px;
     display: flex;
     background-color: lightsalmon;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content:space-around;
-    align-items:flex-end ;
-}
+    align-content:space-around;
+    align-items: center;}
 .item{
     /* width: 100px;
     height: 100px; */
@@ -22,4 +23,7 @@
     border: 1px solid black;
     background-color: blue;
     
+}
+.item:hover{
+    scale: 1.3;
 }
