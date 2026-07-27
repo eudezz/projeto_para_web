@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cotainer{
+    display: flex;
+    background-color: brown;
+    flex-flow: row wrap;
+   height: 400px;
+   
+}
+.item{
+   
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: blue;
+    
+}
+
+#i1{
+    align-self:center;
+}
+
+
+#i2{
+     align-self:flex-end;
+}
+
+
+#i3{
+    align-self: flex-start;
+}
+
+
+#i4{
+     align-self:flex-end;
+}
+
+#i5{
+     align-self:flex-end;
+}
+
+#i4{
+     align-self:flex-end;
+}
+#i4{
+     align-self:flex-start;
+}

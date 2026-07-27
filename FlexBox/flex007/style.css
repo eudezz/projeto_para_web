@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cotainer{
+    height: 400px;
+    display: flex;
+    background-color: burlywood;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: flex-end;
+   
+}
+.item{
+    padding: 20px;
+    flex-basis: 150px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: blue;
+    
+}
